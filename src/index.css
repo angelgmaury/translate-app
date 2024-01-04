@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "DM Sans", sans-serif;
+}
+
+body {
+  background-color: #040612;
+  color: white;
+  background-image: url("./assets/hero_img.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.border-box {
+  border: 2px solid rgba(255, 255, 255, 0.18);
+}
